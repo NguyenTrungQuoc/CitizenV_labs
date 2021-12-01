@@ -134,6 +134,27 @@ input{
     margin-bottom: 10px;
     display: flex;
 }
+.checkcontainer {
+    display: flex;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.radiobtn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eeeeee;
+    border-radius: 50%;
+}
+.checkcontainer input:checked ~ .radiobtn {
+    background-color: #2196F3;
+}
 .contaner_date{
     margin-bottom: 10px;
 
