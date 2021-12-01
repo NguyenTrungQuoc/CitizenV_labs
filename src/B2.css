@@ -171,3 +171,15 @@ input{
 input[type="submit"]{
     margin-top: 10px;
 }
+footer {
+    background-color: #ff253a;
+    margin-top: 210px;
+}
+#upper-footer{
+    display: block;
+}
+#owner {
+    display: inline-block;
+    color: #ffffff;
+    padding: 20px;
+}
