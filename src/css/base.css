@@ -1,3 +1,28 @@
+:root{
+    --text-color: white;
+    --back-color:black;
+}
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+img{
+    width: 150px;
+}
+
+.grid{
+    width:1200px;
+    margin:0 auto ;
+}
+a{
+    text-decoration: none;
+    color:var(--back-color);
+}
 div img{
     height: 145px;
 }
@@ -51,8 +76,12 @@ div img{
     border: 1px solid transparent;
 }
 .log-out:hover,
-.log-out:hover .header_icon,
+.log-out:hover a,
+.log-out:hover p,
+.log-out:hover .header_icon i,
 .header_list li:hover,
+.header_list li:hover a,
+.header_list li:hover i,
 .header_list li:hover .header_icon{
     border-color:red;
     color:red;
@@ -67,13 +96,17 @@ div img{
 .header_icon i{
     font-size: 17px;
     align-items: center;
+    color:#2da5f5;
 }
 /*contaner*/
 .contaner{
     background-color: rgb(248,249,250);
     padding:50px ;
+    margin-top:30px;
 }
-
+.contaner h1{
+    color:#2da5f5;
+}
 .form_input{
     margin-top:20px ;
     display: flex;
@@ -84,7 +117,7 @@ div img{
     outline: none;
 }
 .form_input input:focus{
-    border: 1px solid red;
+    border: 2px solid #2da5f5;
 }
 .contaner_fix,
 .contaner_error{
@@ -107,46 +140,4 @@ input{
     padding: 10px 20px;
     margin-top: 10px;
     margin-left: 624px;
-}
-/*inputB2*/
-.contaner h1{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-}
-.contaner_listform{
-    width: 700px;
-}
-.contaner_listform label{
-    font-size: 20px;
-}
-.contaner_listform input{
-    width: 100%;
-    outline: none;
-}
-.contaner_name{
-    margin-bottom: 10px;
-}
-.contaner_old{
-    margin-bottom: 10px;
-}
-.contaner_sex{
-    margin-bottom: 10px;
-    display: flex;
-}
-.contaner_date{
-    margin-bottom: 10px;
-
-}
-.contaner_cccd{
-    margin-bottom: 10px;
-}
-.contaner_hometown{
-    margin-bottom: 10px;
-}
-.contaner_address{
-    margin-bottom: 10px;
-}
-input[type="submit"]{
-    margin-top: 10px;
 }
