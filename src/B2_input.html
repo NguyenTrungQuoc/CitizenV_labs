@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>B2</title>
+    <link rel="stylesheet" href="B2.css">
+    <link rel="stylesheet" href="./fonts/fontawesome-free-5.15.4-web/css/all.css">
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+   
+    <div class="app">
+        <div class="grid">
+                <div class="banner">
+                    <img src="./img/logoVN.png" alt="">
+                    <div class="banner_list">
+                        <h1>VIỆT NAM</h1>
+                        <h2>CỔNG THÔNG TIN ĐIỆN TỬ</h2>
+                        <p>Population</p>
+                    </div>
+                </div>
+                <div class="header">
+                    <div class="col">
+                        <ul class="header_list">
+                            <li>
+                                <p class="header_icon"><i class="fas fa-house-damage"></i></p>
+                                Trang chủ</li>
+                            <li>
+                                <p class="header_icon"><i class="fas fa-external-link-alt"></i></p>
+                                Nhập số liệu</li>
+                        </ul>
+                        <div class="log-out">
+                            <p class="header_icon"><i class="fas fa-sign-out-alt"></i></p>
+                            Đăng xuất
+                        </div>
+                    </div>         
+                </div>
+                <div class="contaner">
+                    <h1>Điều tra dân số</h1>
+                    <div class="contaner_listform">
+                        <div class="contaner_name">
+                            <label for="">Tên:</label>
+                            <input type="text">    
+                        </div>
+                        <div class="contaner_old">
+                            <label for="">Tuổi:</label>
+                            <input type="text">    
+                        </div>
+                        <div class="contaner_sex">
+                            <p>Giới tính:</p>
+                            <form>
+                                <input name="gender" type="radio" value="checked">Nam
+                                <input name="gender" type="radio" value="Nữ">Nữ
+                                <input name="gender" type="radio" value="Khác">Khác
+                            </form>
+                        </div>
+                        <div class="contaner_cccd">
+                            <label for="">Mã CCCD cấp:</label>
+                            <input type="text">    
+                        </div>
+                        <form class="contaner_date" action="/action_page.php">
+                            <label for="date">Ngày sinh:</label>
+                            <input type="date" id="date" name="date">
+                          </form>
+                          <div class="contaner_hometown">
+                            <label for="">Quê quán:</label>
+                            <input type="text">  
+                          </div>
+                          <div class="contaner_address">
+                            <label for="">Địa chỉ thường chú:</label>
+                            <input type="text">  
+                          </div>
+                          <input type="submit" placeholder="Done" name="Done">
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
