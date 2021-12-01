@@ -141,3 +141,77 @@ input{
     margin-top: 10px;
     margin-left: 624px;
 }
+.contaner h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.contaner_listform{
+    width: 700px;
+}
+.contaner_listform label{
+    font-size: 20px;
+}
+.contaner_listform input{
+    width: 100%;
+    outline: none;
+}
+.contaner_name{
+    margin-bottom: 10px;
+}
+.contaner_old{
+    margin-bottom: 10px;
+}
+.contaner_sex{
+    margin-bottom: 10px;
+    display: flex;
+}
+.checkcontainer {
+    display: flex;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.radiobtn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eeeeee;
+    border-radius: 50%;
+}
+.checkcontainer input:checked ~ .radiobtn {
+    background-color: #2196F3;
+}
+.contaner_date{
+    margin-bottom: 10px;
+
+}
+.contaner_cccd{
+    margin-bottom: 10px;
+}
+.contaner_hometown{
+    margin-bottom: 10px;
+}
+.contaner_address{
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    margin-top: 10px;
+}
+footer {
+    background-color: #ff253a;
+    margin-top: 210px;
+}
+#upper-footer{
+    display: block;
+}
+#owner {
+    display: inline-block;
+    color: #ffffff;
+    padding: 20px;
+}

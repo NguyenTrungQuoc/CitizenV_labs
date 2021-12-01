@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>B2</title>
@@ -44,7 +44,7 @@
                     </div>         
                 </div>
                 <div class="contaner">
-                    <h1>Điều tra dân số</h1>
+                    <h1>PHIẾU ĐIỀU TRA DÂN CƯ </h1>
                     <div class="contaner_listform">
                         <div class="contaner_name">
                             <label for="">Tên:</label>
@@ -55,12 +55,19 @@
                             <input type="text">    
                         </div>
                         <div class="contaner_sex">
-                            <p>Giới tính:</p>
-                            <form>
-                                <input name="gender" type="radio" value="checked">Nam
-                                <input name="gender" type="radio" value="Nữ">Nữ
-                                <input name="gender" type="radio" value="Khác">Khác
-                            </form>
+                            <p style="font-size: 20px">Giới tính:</p>
+                            <label class="checkcontainer">Nam
+                                <input type="radio" checked="checked" name="radio">
+                                <span class="radiobtn"></span>
+                            </label>
+                            <label class="checkcontainer">Nữ
+                                <input type="radio" name="radio">
+                                <span class="radiobtn"></span>
+                            </label>
+                            <label class="checkcontainer">Khác
+                                <input type="radio" name="radio">
+                                <span class="radiobtn"></span>
+                            </label>
                         </div>
                         <div class="contaner_cccd">
                             <label for="">Mã CCCD cấp:</label>
@@ -78,10 +85,25 @@
                             <label for="">Địa chỉ thường chú:</label>
                             <input type="text">  
                           </div>
-                          <input type="submit" placeholder="Done" name="Done">
+                        <div class="contaner_face">
+                            <label for="">Đặc điểm khuôn mặt:</label>
+                            <input type="text">
+                        </div>
+                        <br>
+                        <br>
+                          <input type="Submit" placeholder="Done" name="Done">
                     </div>
                 </div>
-
+            <footer style="margin-top: 10px">
+                <div id="upper-footer">
+                    <div id="owner">
+                        LIÊN HIỆP CÁC HỘI KHOA HỌC VÀ KỸ THUẬT VIỆT NAM <br>
+                        Địa chỉ: 53 Nguyễn Du - Hà Nội - Việt Nam. <br>
+                        Điện thoại: (+84) 43.9432206, 43.9432208. Fax: (+84) 43.8227593. E-mail: thongtin@vusta.vn.<br>
+                        Giấy phép Số 169/GP-BC ngày 02/05/2007.
+                    </div>
+                </div>
+            </footer>
         </div>
     </div>
 
