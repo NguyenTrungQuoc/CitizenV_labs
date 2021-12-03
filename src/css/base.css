@@ -26,6 +26,10 @@ a{
 div img{
     height: 145px;
 }
+option{
+    outline: none;
+}
+
 
 /*banner*/
 .banner{
@@ -203,12 +207,14 @@ input{
 input[type="submit"]{
     margin-top: 10px;
 }
+.content_board-input i{
+    margin-top: 10px;
+}
+
+/* footer */
 footer {
     background-color: #ff253a;
-    margin-top: 210px;
-}
-#upper-footer{
-    display: block;
+    margin-top: 100px;
 }
 #owner {
     display: inline-block;

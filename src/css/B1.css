@@ -20,7 +20,7 @@
     background-color: #2da5f5;
     width: 195px;
     top:100%;
-    left: 16px;
+    left: 16px; 
     height: 1px;
     position: absolute;
 }
@@ -67,7 +67,7 @@
     outline: none;
 }
 table{
-    margin-top: 20px;
+    margin-top: 10px;
     padding:10px;
 }
 table, th, td {
@@ -84,7 +84,7 @@ tr{
     width: 100%;
 }
 .content_order{
-    width: 100px;
+    width: 50px;
 }
 td:last-child{
     cursor: pointer;
@@ -107,4 +107,50 @@ td:last-child{
     background-color: #2da5f5;
     color:var(--text-color);
     border-color: #2da5f5;
+}
+.content_next-list.active{
+    background-color: #2da5f5;
+    color:var(--text-color);
+}
+tr td input{
+    width: auto;
+}
+
+
+/* Search Time */
+.content_board-time{
+    margin-top: 40px;
+    font-size: 20px;
+    display: flex;
+}
+/* .content_board-time label{
+    margin-right: 3px;
+} */
+.content_boxtime{
+    margin-right: 20px;
+}
+
+
+/* Báo cáo hoàn thành */
+.content_done{
+    display: flex;
+    margin-top: 100px;
+   font-size:20px;
+}
+.content_done p{
+    margin-top: 5px;
+    margin-right: 50px;
+    font-style: italic;
+    font-weight: 600;
+}
+.content_done button{
+    background-color: #2da5f5;
+    color:var(--text-color);
+    font-size: 17px;
+    padding: 5px;
+    border-color: transparent;
+    cursor: pointer;
+}
+.content_done button:active{
+    border-color: red;
 }

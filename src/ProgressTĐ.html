@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>B1_Thống kê</title>
+    <title>Tiến Độ</title>
     <link rel="stylesheet" href="./css/B2.css">
     <link rel="stylesheet" href="./fonts/fontawesome-free-5.15.4-web/css/all.css">
     <link rel="stylesheet" href="./css/base.css">
@@ -60,13 +60,13 @@
                                 </a>
                             </li>
                             <li class="content_menu-option">
-                                <a class="active" href="">
+                                <a href="">
                                     <i class="fab fa-algolia"></i>
                                     Thống kê dân số</li>
                                 </a>
                             </li>
                             <li class="content_menu-option">
-                                <a href="">
+                                <a class="active" href="">
                                     <i class="fas fa-recycle"></i>
                                     Tiến độ thống kê</li>
                                 </a>
@@ -91,45 +91,89 @@
                             <i class="fas fa-forward"></i>
                             <input type="text" name="" id="">
                         </div>
+                        <div class="content_board-time">
+                            <div class="content_boxtime">
+                                <label for="content_board-day">Ngày:</label>
+                                <select name="" id="content_board-day" class="">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">...</option>
+                                </select>
+                            </div>
+                            <div class="content_boxtime">
+                                <label for="content_board-week">Tuần:</label>
+                                <select name="" id="content_board-week" class="">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="..."></option>
+                                </select>
+                            </div>
+                            <div class="content_boxtime">
+                                <label for="content_board-month">Tháng:</label>
+                                <select name="" id="content_board-month" class="">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">...</option>
+                                </select>
+                            </div>
+                        </div>
                         <table style="width:100%">
                             <tr>
                                 <th class="content_order">
                                     STT
                                 </th>
-                                <th class="content_cccd">
-                                    Mã CCCD
-                                </th>
                                 <th class="content_name">
                                     Tên
-                                </th>
-                                <th class="content_date">
-                                    Ngày tháng năm sinh
                                 </th>
                                 <th class="content_sex">
                                     Sex
                                 </th>
-                                <th class="content_hometown">
-                                    Quê quán
+                                <th class="content_birthday">
+                                    Birthday
                                 </th>
-                                <th class="content_address">
-                                    ĐCTC
-                                </th> 
-                                <th class="content_check">Check</th>
+                                <th class="content_time">
+                                    Thời gian nhập
+                                </th>
                             </tr>
+                            <!-- <tr>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                                <td><input type="text" name="" id=""></td>
+                            </tr> -->
                             <tr>
                                 <td>1</td>
-                                <td>01010012</td>
                                 <td>Nguyễn Minh Hoàng</td>
-                                <td>10/10/2000</td>
                                 <td>Nam</td>
-                                <td>Hà Nội</td>
-                                <td>Hà Nội</td>
-                                <td><i class="fas fa-trash-alt"></i></td>
+                                <td>10/10/2000</td>
+                                <td>1/1/2021</td>
                             </tr>
                         </table>
                         <div class="content_next">
                             <a href=""><div class="content_next-list"><i class="fas fa-arrow-alt-circle-left"></i></div></a>
-                            <a href=""><div class="content_next-list">1</div></a>
+                            <a href=""><div class="content_next-list active">1</div></a>
                             <a href=""><div class="content_next-list">2</div></a>
                             <a href=""><div class="content_next-list">3</div></a>
                             <a href=""><div class="content_next-list">...</div></a>
