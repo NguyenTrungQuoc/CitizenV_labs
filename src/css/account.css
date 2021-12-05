@@ -9,6 +9,7 @@
 } 
 .content_account-new{
     display: flex;
+    margin-left: 60px;
 }
 .content_account-text{
     width: 50%;
@@ -47,12 +48,28 @@ input[placeholder]{
 .content_account-img label{
     font-size: 22px;
 }
+.content_account-boximg:hover .content_account-boximg::after{
+    animation: run 2s linear alternate;
+}
+@keyframes run{
+    form{
+        transform: scale(0);
+        opacity: 0;
+    }
+    to{
+        transform: scale(2);
+        opacity: 1;
+    }
+}
+
 .content_account-boximg{
     padding:120px;
     margin-left: 10%;
     height: 80%;
     background-color: rgba(0, 0, 0,0.32);
+    cursor: pointer;
     position:relative;
+    border-radius: 10px;
 }
 .content_account-boximg::after{
     content: "";
@@ -89,9 +106,19 @@ input[placeholder]{
 .content_table td{
     padding:10px;
 }
-.content_table{
+.content_table.account{
     display: flex;
     margin: 50px 0;
-    border-color: transparent;
+    border-color: transparent; 
     justify-content: center;
+}
+/* B1_pages */
+
+
+
+/* Mã phường */
+
+.content_table.code{
+    width: 40%;
+    margin-bottom: 50px;
 }

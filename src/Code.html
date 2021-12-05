@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Cấp TK</title>
+    <title>Cấp mã</title>
     <link rel="stylesheet" href="./css/B2.css">
     <link rel="stylesheet" href="./fonts/fontawesome-free-5.15.4-web/css/all.css">
     <link rel="stylesheet" href="./css/base.css">
@@ -31,13 +31,13 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="Code.html">
+                                <a class="active" href="">
                                     <p class="header_icon"><i class="fas fa-external-link-alt"></i></p>
                                     Cấp mã
                                 </a>
                             </li>
                             <li>
-                                <a class="active" href="">
+                                <a href="Account.html">
                                     <p class="header_icon"><i class="fas fa-user-friends"></i></p>
                                     Cấp tài khoản
                                 </a>
@@ -53,46 +53,32 @@
                 </div>
                 <div class="content">
                     <div class="content_account">
-                        <h1>Cấp tài khoản chuyên viên</h1>
+                        <h1>Cấp mã phường</h1>
                         <div class="content_account-new">
                             <div class="content_account-text">
                                 <div class="content_account-input">
-                                    <label for="name">Tài khoản mới:</label>
+                                    <label for="name">Tài phường mới:</label>
                                     <input id="name" type="text" placeholder="Name">
                                 </div>
                                 <div class="content_account-input">
-                                    <label for="pass">Mật khẩu:</label>
+                                    <label for="pass">Mã phường mới:</label>
                                     <input id="pass" type="password" placeholder="Pass">
                                 </div>
-                                <div class="content_account-input">
-                                    <label for="namecv">Tên chuyên viên:</label>
-                                    <input id="namecv" type="text" placeholder="Name">
-                                </div>
-                                <div class="content_account-input">
-                                    <label for="code">Mã phường:</label>
-                                    <input id="code" type="text" placeholder="Code">
-                                </div>
+                               
                             </div>
-                            <div class="content_account-img">
-                                <label for="imgs">Ảnh:</label>
-                                <div class="content_account-boximg"></div>
-                            </div>
+                            <table class="content_table code">
+                                <tr>
+                                    <th>Mã phường</th>
+                                    <th>Tên phường</th>
+                                </tr>
+                                <tr>
+                                    <td>010101</td>
+                                    <td>Cầu Giấy</td>
+                                </tr>
+                            </table>
                         </div>
-                        <div class="content_icondown">
-                            <i class="fas fa-arrow-down"></i>
-                        </div>
-                        <table class="content_table account">
-                            <tr>
-                                <th>Chuyên viên</th>
-                                <th>Tài khoản</th>
-                                <th>Mật khẩu</th>
-                            </tr>
-                            <tr>
-                                <td><a href="Expert_information.html">Nguyễn Minh Hoàng</a></td>
-                                <td>12435</td>
-                                <td>*******</td>
-                            </tr>
-                        </table>
+                      
+                       
                     </div>
                 </div>
                 <footer>
