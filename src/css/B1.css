@@ -15,7 +15,7 @@
 .content_menu li:not(li:first-child){
     margin-left: 5px;
 }
-.content_menu-option:not(.content_menu-option:nth-child(8)):after{
+.content_menu-option:not(.content_menu-option:nth-child(10)):after{
     content: "";
     display: block;
     background-color: #2da5f5;
@@ -166,4 +166,86 @@ tr td input{
 }
 .content_table.pages{
     margin: 50px 0;
+}
+
+/* success */
+
+.content_return{
+    font-size: 20px;
+    margin-bottom: 100px;
+   
+  }
+.content_return a{
+    color:#2da5f5;
+    position: relative;
+}
+.content_return a::after{
+    content: '';
+    position: absolute;
+    top:100%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color:#2da5f5;
+    transform-origin: bottom right;
+    transform: scaleX(0);
+    transition: transform 0.5s ease;
+}
+.content_return a:hover::after{
+    transform-origin: bottom left;
+    transform: scaleX(1);
+}
+
+.content_success-form{
+    width: 100%;  
+    text-align: center;
+}
+.content_boxlist{
+    display: flex;
+    justify-content: center;
+    
+}
+.content_boxlist-success{
+    width: 500px;
+    background-color: var(--text-color);
+    padding:40px;border-radius: 5px;
+    box-shadow: 0 0 10px rgb(127, 161, 127);
+}
+
+.content_tickv.success i{
+    padding:15px;
+    border-radius:50%;
+    font-size: 30px;
+    color:rgb(55,224,48);
+    border: 3px solid rgba(55,224,48,0.2);
+    border-top-color: rgb(55,224,48);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+.content_tickv{
+    margin-bottom: 20px;
+}
+.content_boxlist-success .success{
+    color:rgb(55,224,48);
+}
+.content_boxlist-text{
+
+}
+.content_boxlist-success h1{
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+.content_tickv.error i{
+    padding:15px;
+    width: 68px;
+    border-radius:50%;
+    font-size: 30px;
+    color:rgb(252,15,58);
+    border: 3px solid rgba(224, 101, 122, 0.2);
+    border-top-color: rgb(252,15,58);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+.content_boxlist-success.error{
+    box-shadow: 0 0 10px rgb(218, 121, 139);
 }

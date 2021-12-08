@@ -228,3 +228,71 @@ footer {
 .header .header_list li .active {
     color:red;
 }
+
+/* search */
+.content_board-search{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.content_board-search label{
+    margin: 0 20px;
+}
+.content_board-search input{
+    outline: none;
+    margin-right: 10px;
+}
+.content_board-search input:focus{
+    border: 2px solid #2da5f5;
+}
+.content_board-listname{
+    display: flex;
+    border: 1px solid #2da5f5;
+    padding: 50px;
+}
+.content_board-listname-name{
+    width: 50%;
+    font-size: 20px;
+}
+.content_board-listname--input{
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.content_board-listname--img{
+
+}
+.content_information-imgsearch{
+    width: 200px;
+    background-color: rgba(0, 0, 0,0.32);
+    cursor: pointer;
+    position:relative;
+    margin-left: 50%;
+    margin-top: 30px;
+    height: 280px;
+    border-radius: 10px;
+}
+.content_information-imgsearch:hover{
+    opacity: 0.9;
+}
+.content_information-imgsearch::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 20%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: var(--text-color);
+    position: absolute;
+}
+.content_information-imgsearch::before{
+    content: "";
+    display: block;
+    height: 17%;
+    width: 2px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: var(--text-color);
+    position: absolute;
+}
