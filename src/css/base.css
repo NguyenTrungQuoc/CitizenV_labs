@@ -66,9 +66,11 @@ option{
 .log-out{
     padding: 10px;
     font-size: 20px;
+    position: relative;
 }
 .log-out i{
     font-size: 17px;
+    
 }
 .header_icon{
     display: inline-block;
@@ -78,7 +80,13 @@ option{
     margin-right: 5px;
     position: relative;
     border: 1px solid transparent;
+    
+}  
+.header_output{
+    position: absolute;
+   
 }
+
 .log-out:hover,
 .log-out:hover a,
 .log-out:hover p,
